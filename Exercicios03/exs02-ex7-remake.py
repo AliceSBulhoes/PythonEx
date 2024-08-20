@@ -29,6 +29,7 @@ def lista(num: int = 1) -> list:
 
 
 def listar_todos() -> None:
+    """Lista todas as listas que o usuário fez"""
     for nome,itens in dic_listas.items():
         print("-" * 35)
         listar_itens(itens,nome)
