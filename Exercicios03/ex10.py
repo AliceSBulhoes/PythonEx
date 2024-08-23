@@ -5,6 +5,8 @@
     18 anos
 """
 
+import os
+
 def criar_lista() -> list:
     """Cria duas listas: uma com nome e outra com a idade da pessoa"""
     cont = 1
@@ -33,7 +35,8 @@ def criar_lista() -> list:
 
 def maiores_idade(lista:list = [] ):
     """Lista a o nome e a idade dos maiores de idade"""
-    for i in range():
+    os.system('cls')
+    for i in range(0,len(lista[1])):
         if lista[1][i] >= 18:
             print(f"Nome: {lista[0][i]}\tIdade: {lista[1][i]}")        
 
