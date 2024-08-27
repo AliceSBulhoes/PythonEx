@@ -28,7 +28,7 @@ def mostrar50(dic: dict = {}) -> None:
     """Mostra na tela os preços dos alunos superios a 50"""
     os.system('cls')
     for key, notas in dic.items():
-        print(f"Aluno: {key}\nMédia: R${sum(notas)/3}\n")
+        print(f"\nRM: {key}\nMédia: R${sum(notas)/3}")
 
 
 for i in range(0,5):

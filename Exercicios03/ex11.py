@@ -33,7 +33,7 @@ def concatenacao(tupla1: tuple = (), tupla2: tuple = ()) -> tuple:
     tupla_final = tupla1 + tupla2
 
     return tupla_final
-
+ 
 tupla1 = criacaoTupla()
 tupla2 = criacaoTupla()
 
