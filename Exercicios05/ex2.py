@@ -43,7 +43,7 @@ def alunos_aprovados(lista:list = []) -> list:
     
     return lista_aprovados
 
-preencherInfo()
+adicionarLista(preencherInfo())
 
 while True:
     opcao = input("Deseja adiconar mais? [S/N]: ").upper()
